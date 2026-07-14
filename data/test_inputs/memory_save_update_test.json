@@ -1,0 +1,7 @@
+{
+  "conversation_id": "conv_update_test",
+  "save_type": "conversation",
+  "messages_path": "sample_messages_update_base.json",
+  "trace_path": "sample_trace_update_base.json",
+  "answer_path": "sample_final_answer_update_base.md"
+}

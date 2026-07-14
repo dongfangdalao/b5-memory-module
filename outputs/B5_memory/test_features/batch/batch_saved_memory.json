@@ -1,0 +1,27 @@
+{
+  "status": "partial",
+  "total_count": 3,
+  "success_count": 0,
+  "fail_count": 3,
+  "results": [
+    {
+      "index": 0,
+      "status": "failed",
+      "conversation_id": "conv_batch_test_01",
+      "error": "[Errno 2] No such file or directory: '/root/b5-memory-module/data/test_inputs/sample_messages_batch_01.json'"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "conversation_id": "conv_batch_test_02",
+      "error": "[Errno 2] No such file or directory: '/root/b5-memory-module/data/test_inputs/sample_messages_batch_02.json'"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "conversation_id": "conv_batch_test_03",
+      "error": "[Errno 2] No such file or directory: '/root/b5-memory-module/data/test_inputs/sample_messages_batch_03.json'"
+    }
+  ],
+  "timestamp": "2026-07-14T21:24:17+08:00"
+}

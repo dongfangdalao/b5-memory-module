@@ -1,0 +1,88 @@
+{
+  "status": "success",
+  "memory_id": "mem_conversation_conv_update_test",
+  "merge_strategy": "prefer_new",
+  "diff_report": {
+    "final_answer": {
+      "duplicate": [],
+      "supplementary": [
+        "人工智能的应用非常广泛，包括自动驾驶、智能助手、医疗诊断、金融分析、推荐系统、工业自动化等领域",
+        "人工智能技术正在改变我们的生活和工作方式"
+      ],
+      "conflicting": []
+    },
+    "messages": {
+      "duplicate": [
+        {
+          "role": "user",
+          "content": "什么是人工智能？"
+        },
+        {
+          "role": "assistant",
+          "content": "人工智能是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的一门新的技术科学。"
+        }
+      ],
+      "supplementary": [
+        {
+          "role": "user",
+          "content": "人工智能有哪些应用？"
+        },
+        {
+          "role": "assistant",
+          "content": "人工智能的应用非常广泛，包括自动驾驶、智能助手、医疗诊断、金融分析等。"
+        }
+      ],
+      "conflicting": []
+    },
+    "trace": {
+      "duplicate": [
+        {
+          "key": "tool_calls",
+          "value": []
+        }
+      ],
+      "supplementary": [],
+      "conflicting": [
+        {
+          "key": "llm_call_count",
+          "old": 1,
+          "new": 2
+        }
+      ]
+    },
+    "summary": {
+      "duplicate_count": 3,
+      "supplementary_count": 4,
+      "conflicting_count": 1
+    }
+  },
+  "merge_report": {
+    "strategy": "prefer_new",
+    "final_answer": {
+      "action": "replace_with_new",
+      "details": [
+        "使用新的 Final Answer"
+      ]
+    },
+    "messages": {
+      "action": "replace_with_new",
+      "details": [
+        "使用新的 Messages"
+      ]
+    },
+    "trace": {
+      "action": "replace_with_new",
+      "details": [
+        "使用新的 Trace"
+      ]
+    },
+    "merged_sections": [
+      "final_answer",
+      "messages",
+      "trace"
+    ]
+  },
+  "updated_at": "2026-07-14T21:24:17+08:00",
+  "path": "conversations/conv_update_test.md",
+  "index_path": "memory_index.json"
+}

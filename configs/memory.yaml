@@ -1,0 +1,18 @@
+memory:
+  root_dir: ../memory
+  global_memory_dir: global
+  conversation_memory_dir: conversations
+  index_path: memory_index.json
+  max_memory_chars: 2000
+  compression:
+    enable: true
+    max_answer_chars: 2000
+    max_messages_chars: 3000
+    summary_length: 200
+  vector_search:
+    enable: true
+    similarity_threshold: 0.0
+  hybrid_search:
+    enable: true
+    keyword_weight: 0.5
+    vector_weight: 0.5
